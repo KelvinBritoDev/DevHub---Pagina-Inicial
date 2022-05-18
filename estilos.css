@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   display:flex;
+    background: rgb(38, 166, 212);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+}
+
+header .logo{
+    position:relative;
+    left: 1%;
+    
+}
+
+.logo img{
+
+    width: 50px;
+
+    position: absolute;
+    padding: 1px;
+    top: 1px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 320px;
+    
+
+    
+    
+
+
+
+     
+}
+
+
+.card{
+    height: 360px;
+    width: 300px;
+    padding: 16px;
+    position: relative;
+    display: inline-flex;
+    align-items:baseline;
+    justify-content: center;
+    justify-content: justify;
+    box-shadow: 20px 20px 50px #141414;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 22px;
+    border-top: 1px solid #00000167;
+    border-left: 1px solid #00000167;
+    top: 25vh;
+    margin-right: 18px;
+
+    
+    
+  
+   
+
+
+}
+p{
+    color: rgb(249, 246, 246);
+    margin-bottom: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: -4%;
+    justify-content: center;
+    
+
+
+}
+
+.card h2{
+    position: absolute;
+    top: -22px;
+    right: -12px;
+    font-size: 20em;
+    color: rgba(4, 52, 157, 0.067);
+}
+
+.card h3{
+    position: relative;
+    font-size: 36px;
+    top:-9px;
+    color: rgba(4, 52, 157, 0.868);
+    margin-left: 18%;
+    margin-bottom: 6px;
+}
+
+.card a{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    display: inline-flex;
+    padding: 2px;
+    background: rgb(4, 52, 157);
+    border-radius: 8px;
+    opacity: 0.6;
+    width: 130px;
+    height: 24px;
+    font-size: 12px;
+    padding-left: 12px;
+    justify-items: auto;
+
+}
+
+.card:hover a{
+    background:rgba(4, 52, 157, 0.867);
+    opacity: 1;
+    
+}
+
+.content{
+   align-items: center;
+   justify-content: center;
+   justify-items: center; 
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   cursor:pointer;
+   opacity: 0.3;
+ 
+  
+}
+
+.content:hover  {
+    opacity: 1;
+    
+}
+
+header{
+    position:absolute;
+    display:inline-flex;
+    padding: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: -5%;
+    
+}
+
+
+footer{
+    display: inline-flex;
+    bottom:0px ;
+    position:absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+    font-size: 14px;
+    
+    
+
+}
+
+footer h4{
+    color: rgb(15, 1, 29);
+    padding: 2px; 
+    opacity: 0.6;
+    background-color: rgba(16, 16, 17, 0.07);
+    
+    
+}
+
+
+
+.Pag{
+    color: #fff;
+    position:relative;
+    top: 12px;
+    width: 400px;
+    font-size: 25px;
+    box-sizing: border-box;
+    transform: translateX(160%);
+    margin-left: -254px;
+    font-weight:bold;
+    flex-wrap: wrap;
+}
+
+.principal{
+    display: flex;
+    margin:auto;
+    position: relative;
+    padding: 20px;
+    flex-wrap: wrap;
+    min-width: none;
+    max-width: none;
+
+    
+   
+    
+    
+}
+
+header h3{
+    margin-left: none;
+    font-weight: bold;
+    font-size: 24px;
+    opacity: 120%;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+
+@media (max-width: 1128px)
+{
+    footer{
+       
+        position: absolute;
+        flex-wrap: wrap;
+        display: none;
+        
+        }
+.principal{
+    
+    top: -45px;
+
+    
+    
+    
+    
+}
+
+.card{
+    top: 120px;
+    
+}
+
+body{
+   
+    
+    max-width: 20vh;
+    
+
+
+
+
+}
+header{
+    right: 160%;
+    margin-top: -20px;
+}
+@media (min-width:300px) {
+   
+    body{
+        padding: 20%;
+        margin: auto;
+        
+    }
+    header{
+        left: -28%;
+        margin-top: px;
+    }
+
+    footer{
+    margin: 20px;
+    position: absolute;
+    border-top: #141414;
+    margin-bottom: -450px;
+
+    
+    
+    }
+
+    h4{
+        font-size: 14px;
+        opacity: 0;
+    }
+
+    header img{
+        margin-top: -50px;
+        left: -90px;
+        
+    }
+    .logo img{
+        width: 120px;
+        left: -120px;
+    }
+}
+
+
+}
+
